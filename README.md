@@ -6,18 +6,13 @@
 
 > The **dynamic** stylesheet language. [http://lesscss.org](http://lesscss.org).
 
-This is the JavaScript, official, stable version of Less.
-
-###### :point_right: [![Join the chat at https://gitter.im/less/less.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/less/less.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) <sup>Chat with Less.js users</sup>
-
+###### :point_up:  This is the fork of original JavaScript, official, stable version of Less with theming fallback support
 
 ## Getting Started
 
 Options for adding Less.js to your project:
 
-* Install with [npm](https://npmjs.org): `npm install less`
-* [Download the latest release][download]
-* Clone the repo: `git clone https://github.com/less/less.js.git`
+* Install with [npm](https://npmjs.org): `npm install less-aristos`
 
 ## More information
 
@@ -28,29 +23,9 @@ Here are other resources for using Less.js:
 * [stackoverflow.com][so] is a great place to get answers about Less.
 * [Less.js Issues][issues] for reporting bugs
 
-
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md). Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
-
-### Reporting Issues
-
-Before opening any issue, please search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas). After that if you find a bug or would like to make feature request, [please open a new issue][issues].
-
-Please report documentation issues in [the documentation project](https://github.com/less/less-docs).
+## Publish info
+https://docs.npmjs.com/getting-started/publishing-npm-packages
 
 ### Development
 
 Read [Developing Less](http://lesscss.org/usage/#developing-less).
-
-## Release History
-See the [changelog](CHANGELOG.md)
-
-## [License](LICENSE)
-
-Copyright (c) 2009-2016 [Alexis Sellier](http://cloudhead.io) & The Core Less Team
-Licensed under the [Apache License](LICENSE).
-
-
-[so]: http://stackoverflow.com/questions/tagged/twitter-bootstrap+less "StackOverflow.com"
-[issues]: https://github.com/less/less.js/issues "GitHub Issues for Less.js"
-[download]: https://github.com/less/less.js/zipball/master "Download Less.js"

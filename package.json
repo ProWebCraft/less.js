@@ -1,25 +1,26 @@
 {
-  "name": "less",
+  "name": "less-aristos",
   "version": "2.6.1",
-  "description": "Leaner CSS",
+  "description": "Leaner CSS Fork",
   "homepage": "http://lesscss.org",
   "author": {
-    "name": "Alexis Sellier",
-    "email": "self@cloudhead.net"
+    "name": "Andrey Mistulov",
+    "email": "am@aristos.pw"
   },
   "contributors": [
-    "The Core Less Team"
+    "The Core Less Team",
+    "Aristos Dev Team"
   ],
   "bugs": {
     "url": "https://github.com/less/less.js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/less/less.js.git"
+    "url": "git@github.com:ProWebCraft/less.js.git"
   },
   "master": {
-    "url": "https://github.com/less/less.js/blob/master/",
-    "raw": "https://raw.githubusercontent.com/less/less.js/master/"
+    "url": "https://github.com/ProWebCraft/less.js/blob/master/",
+    "raw": "https://raw.githubusercontent.com/ProWebCraft/less.js/master/"
   },
   "license": "Apache-2.0",
   "bin": {

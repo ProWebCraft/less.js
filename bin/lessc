@@ -102,7 +102,7 @@ function printUsage() {
         switch (arg) {
             case 'v':
             case 'version':
-                console.log("lessc " + less.version.join('.') + " (Less Compiler) [JavaScript]");
+                console.log("lessc " + less.version.join('.') + " (Aristos Less Compiler) [JavaScript]");
                 continueProcessing = false;
                 break;
             case 'verbose':
@@ -427,7 +427,8 @@ function printUsage() {
 
         data = data.replace(/^\uFEFF/, '');
 
-        options.paths = [path.dirname(input)].concat(options.paths);
+        options.paths = [].concat(options.paths);
+        options.paths.push(path.dirname(input));
         options.filename = input;
 
         if (options.lint) {

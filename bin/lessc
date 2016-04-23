@@ -21,23 +21,24 @@ var args = process.argv.slice(1);
 var silent = false,
     verbose = false,
     options = {
-    depends: false,
-    compress: false,
-    max_line_len: -1,
-    lint: false,
-    paths: [],
-    color: true,
-    strictImports: false,
-    insecure: false,
-    rootpath: '',
-    relativeUrls: false,
-    ieCompat: true,
-    strictMath: false,
-    strictUnits: false,
-    globalVars: null,
-    modifyVars: null,
-    urlArgs: '',
-    plugins: plugins
+        depends: false,
+        compress: false,
+        max_line_len: -1,
+        lint: false,
+        paths: [],
+        color: true,
+        strictImports: false,
+        insecure: false,
+        rootpath: '',
+        relativeUrls: false,
+        ieCompat: true,
+        strictMath: false,
+        strictUnits: false,
+        globalVars: null,
+        modifyVars: null,
+        debugImports: false,
+        urlArgs: '',
+        plugins: plugins
 };
 var sourceMapOptions = {};
 var continueProcessing = true,
@@ -163,6 +164,10 @@ function printUsage() {
                             }
                         });
                 }
+                break;
+            case 'di':
+            case 'debug-imports':
+                options.debugImports = true;
                 break;
             case 'line-numbers':
                 if (checkArgFunc(arg, match[2])) {
@@ -441,6 +446,9 @@ function printUsage() {
         }
 
         less.logger.addListener({
+            debug: function(msg) {
+                console.log(msg);
+            },
             info: function(msg) {
                 if (verbose) {
                     console.log(msg);

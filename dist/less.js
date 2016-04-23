@@ -907,6 +907,7 @@ var parseCopyProperties = [
     'dumpLineNumbers',  // option - whether to dump line numbers
     'compress',         // option - whether to compress
     'syncImport',       // option - whether to import synchronously
+    'debugImports',     // option - whether to debug imported files
     'chunkInput',       // option - whether to chunk input. more performant but causes parse issues.
     'mime',             // browser only - mime type for sheet import
     'useFileCache',     // browser only - whether to use the per file session cache

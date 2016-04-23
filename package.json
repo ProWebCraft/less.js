@@ -24,7 +24,7 @@
   },
   "license": "Apache-2.0",
   "bin": {
-    "lessc": "./bin/lessc"
+    "lessc": "./bin/lessc-aristos"
   },
   "main": "index",
   "directories": {

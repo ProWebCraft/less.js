@@ -1,6 +1,6 @@
 {
   "name": "less-aristos",
-  "version": "2.6.1",
+  "version": "2.6.1.500",
   "description": "Leaner CSS Fork",
   "homepage": "http://lesscss.org",
   "author": {
@@ -24,7 +24,7 @@
   },
   "license": "Apache-2.0",
   "bin": {
-    "lessc": "./bin/lessc"
+    "lessc": "./bin/lessc-aristos"
   },
   "main": "index",
   "directories": {

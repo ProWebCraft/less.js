@@ -6,7 +6,7 @@
 
 > The **dynamic** stylesheet language. [http://lesscss.org](http://lesscss.org).
 
-###### :point_up:  This is the fork of original JavaScript, official, stable version of Less with theming fallback support
+###### :point_up:  This is the fork of original JavaScript, official, stable version of Less with theming fallback support (for Magento etc)
 
 ## Getting Started
 

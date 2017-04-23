@@ -29,3 +29,16 @@ https://docs.npmjs.com/getting-started/publishing-npm-packages
 ### Development
 
 Read [Developing Less](http://lesscss.org/usage/#developing-less).
+
+## Release History
+See the [changelog](CHANGELOG.md)
+
+## [License](LICENSE)
+
+Copyright (c) 2009-2016 [Alexis Sellier](http://cloudhead.io) & The Core Less Team
+Licensed under the [Apache License](LICENSE).
+
+
+[so]: http://stackoverflow.com/questions/tagged/less "StackOverflow.com"
+[issues]: https://github.com/less/less.js/issues "GitHub Issues for Less.js"
+[download]: https://github.com/less/less.js/zipball/master "Download Less.js"
